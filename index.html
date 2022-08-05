@@ -1,0 +1,44 @@
+<!--
+Form Login | ChandraSans
+Github : github.com/ChandraSans
+-->
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ <head> 
+  <meta charset="utf-8"> 
+  <title> Form Login | ChandraSans</title>
+  <link rel="stylesheet" href="style.css"> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script> 
+ </head> 
+ <body> 
+ <div id="load">
+   <button onclick="proses()">Tekan Aku Mas >.< </button>
+ </div>
+  <form action="index.html" class="login-form"> 
+   <h1>Login</h1> 
+   <div class="txtb"> 
+    <input type="text"> <span data-placeholder="Username"></span> 
+   </div> 
+   <div class="txtb"> 
+    <input type="password"> <span data-placeholder="Password"></span> 
+   </div> 
+   <input type="submit" class="logbtn" value="Login"> 
+   <div class="bottom-text">
+     Tidak punya akun? <a href="#">Daftar disini</a> 
+   </div> 
+  </form>
+  <audio controls style=" display:none;" loop id="a"> 
+  <source src="https://dl.dropbox.com/s/fl4dp2n550fbn20/Shape_Of_You_ed_sheeran.mp3"> 
+  </audio> 
+  
+  <script type="text/javascript" charset="utf-8">
+    function proses(){
+    document.getElementById("load").style="display:none"
+    var obj = document.getElementById("a");
+        obj.play();
+}
+  </script>
+ </body>
+</html>
