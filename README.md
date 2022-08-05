@@ -1,3 +1,4 @@
 # formLogin
-
-[![ChandraSans](https://github.com/ChandraSans.png?size=100)](https://github.com/ChandraSans)
+<center>
+[![ChandraSans](https://github.com/ChandraSans.png?size=250)](https://github.com/ChandraSans)
+</center>
